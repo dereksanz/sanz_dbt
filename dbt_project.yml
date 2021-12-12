@@ -27,5 +27,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   sanz_dbt:
-    facebook_ads::
+    facebook_ads_source:
       +materialized: view
